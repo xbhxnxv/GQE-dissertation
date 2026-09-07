@@ -115,10 +115,3 @@ by hand. They are kept because the reasons they failed are findings about
 automated ESG extraction: BRSR mandates what must be disclosed but not how the
 table is laid out, so a form designed for standardisation still produces filings
 no single parser can read.
-
-## Generative AI
-
-Parts of this code were written with AI assistance under the University of
-Birmingham's policy on generative AI in assessed work. Every script was executed
-by the author, every output inspected, and every design decision recorded in the
-comments checked against the data before being accepted.
