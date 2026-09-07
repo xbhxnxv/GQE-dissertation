@@ -1,0 +1,20 @@
+company-years in event study: 191
+
+Table 2. Mean CAR, market model vs NIFTY 500
+window        n   mean CAR                95% CI       t       p       d
+(-1,+1)     191     -0.23%      [-0.58%, +0.12%]   -1.28   0.203   -0.09
+(0,+5)      190     -0.28%      [-0.75%, +0.20%]   -1.14   0.257   -0.08
+(-5,+5)     189     -0.62%      [-1.25%, +0.01%]   -1.92   0.056   -0.14
+(-5,+20)    183     -0.88%      [-2.19%, +0.44%]   -1.30   0.194   -0.10
+
+Table 3. High-GDS minus low-GDS portfolio CAR (median split)
+window      difference      95% CI on difference   Welch t       p
+(-1,+1)         -0.51%          [-1.21%, +0.19%]     -1.43   0.153
+(-5,+5)         -0.73%          [-1.98%, +0.53%]     -1.14   0.257
+(-5,+20)        -2.41%          [-5.02%, +0.20%]     -1.81   0.072
+
+Cross-sectional regressions: CAR ~ GDS + log(mcap) + leverage
+  (-1,+1)    n= 191  b_GDS=-0.00084  se=0.00139  t=-0.60  p=0.548
+  (0,+5)     n= 190  b_GDS=+0.00002  se=0.00167  t=+0.01  p=0.991
+  (-5,+5)    n= 189  b_GDS=-0.00081  se=0.00221  t=-0.36  p=0.715
+  (-5,+20)   n= 183  b_GDS=-0.00629  se=0.00496  t=-1.27  p=0.205

@@ -1,0 +1,24 @@
+company-years with both topic shares and a GDS: 193
+no GDS row for: ['Apollo Tyres', 'Tata Motors']
+
+test                                       raw p     FDR p    Bonf p   survives
+Workforce/wages/rights x GDS              0.0000    0.0000    0.0000        yes
+Waste/packaging/circularity x GDS         0.0000    0.0000    0.0000        yes
+Energy/water/emissions x GDS              0.0000    0.0000    0.0000        yes
+Ethics/anti-corruption x GDS              0.0000    0.0000    0.0000        yes
+Public policy advocacy x zOPS             0.0000    0.0000    0.0000        yes
+Waste/packaging/circularity x zOPS        0.0000    0.0000    0.0000        yes
+Public policy advocacy x GDS              0.0001    0.0002    0.0016        yes
+Customers/product/data x GDS              0.0010    0.0020    0.0160        yes
+Customers/product/data x zOPS             0.0011    0.0020    0.0176        yes
+Workforce/wages/rights x zOPS             0.0018    0.0029    0.0288        yes
+Energy/water/emissions x zOPS             0.0078    0.0113    0.1248        yes
+Stakeholder/community x GDS               0.0105    0.0140    0.1680        yes
+Stakeholder/community x zOPS              0.0521    0.0641    0.8336         no
+Ethics/anti-corruption x zOPS             0.4918    0.5621    1.0000         no
+Health & safety x GDS                     0.9146    0.9250    1.0000         no
+Health & safety x zOPS                    0.9250    0.9250    1.0000         no
+
+survive FDR (q<0.05)   : 12 / 16
+survive Bonferroni     : 10 / 16
+written: topic_gds_correlations.csv

@@ -1,0 +1,46 @@
+H1  Change between the two mandatory BRSR years
+    paired companies (both years): 94
+    LPS_finbert  FY22-23 mean=+0.0319   FY23-24 mean=+0.0314
+                 mean change=-0.0005   95% CI [-0.0056, +0.0046]
+                 paired t=-0.20 p=0.846 | Wilcoxon p=0.372 | Cohen dz=-0.020
+    OPS          FY22-23 mean=+0.0131   FY23-24 mean=+0.0048
+                 mean change=-0.0084   95% CI [-0.0541, +0.0374]
+                 paired t=-0.36 p=0.721 | Wilcoxon p=0.065 | Cohen dz=-0.037
+
+    GDS level by year (zero by construction - NOT a testable quantity):
+           count  mean     std
+year                          
+FY2022-23     94  -0.0  1.4639
+FY2023-24     99   0.0  1.4655
+
+H3  Sector concentration of divergence
+    sectors with n>=3 : 14    company-years: 193
+    one-way ANOVA   F=10.61  p=2.22e-16
+    Kruskal-Wallis  H=74.95  p=9.73e-11
+    eta-squared     =0.454  (45.4% of GDS variance sits between sectors)
+
+    Sector means (descending):
+                    count   mean    std
+sector                                 
+Oil & Gas               4  3.254  1.358
+Metals & Mining        16  1.573  1.858
+Diversified             2  1.489  0.362
+Cement                  8  0.974  0.378
+Telecom                 6  0.967  1.686
+Infra                   2  0.904  0.413
+Energy                 16  0.661  1.327
+FMCG                   18  0.450  1.250
+Pharma                 20  0.339  1.057
+Auto                   18 -0.474  0.743
+Insurance               7 -0.638  1.314
+Banking                19 -0.714  0.784
+IT                     19 -0.765  0.878
+Infrastructure         10 -0.980  0.731
+FinServ                 2 -0.994  0.261
+Consumer                8 -1.010  1.201
+Financial Services     18 -1.169  0.998
+
+Pooled OLS: GDS ~ size + leverage + sector FE + year FE (HC3 robust SE)
+    n=193   R2=0.462   adj R2=0.403
+    log_market_cap   b=+0.1430  se=0.0875  t=+1.63  p=0.102
+    leverage         b=+0.1472  se=0.5570  t=+0.26  p=0.792

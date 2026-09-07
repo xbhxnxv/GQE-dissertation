@@ -1,0 +1,32 @@
+(a) WEIGHTING ROBUSTNESS
+    variance explained by PC1 : 0.387
+    equal-weighted vs PCA-weighted OPS: r=0.865 (p=3.96e-59), Spearman rho=0.582
+    PC1 loadings:
+      _z_scope12        +0.257
+      _z_energy         +0.225
+      _z_scope1         +0.207
+      _z_controversies  +0.159
+      _z_renew_energy   -0.069
+      _z_women_dir      +0.035
+      _z_women_emp      -0.028
+      _z_renew_pct      +0.021
+
+(b) SECTOR ROBUSTNESS
+    n=193   sectors=17
+    log(Scope 1+2) vs raw GDS            : r=+0.685  p=4.07e-28
+    log(Scope 1+2) vs sector-adjusted GDS: r=+0.222  p=0.0019
+    Reading: most of the raw emissions link is cross-sector composition,
+    but a smaller within-sector link survives, so GDS is not purely a
+    sector artefact.
+
+    Topic-GDS correlations before and after sector-demeaning:
+    theme                             r raw    r adj    p adj  survives
+    Workforce/wages/rights           -0.331   -0.220   0.0021  yes
+    Customers/product/data           -0.234    0.053   0.4682  no
+    Waste/packaging/circularity       0.483    0.127   0.0794  no
+    Energy/water/emissions           -0.375   -0.311   0.0000  yes
+    Public policy advocacy            0.287    0.024   0.7434  no
+    Health & safety                   0.008    0.051   0.4813  no
+    Ethics/anti-corruption           -0.335   -0.307   0.0000  yes
+    Stakeholder/community             0.184    0.238   0.0008  yes
+    written: topic_sector_adjusted.csv

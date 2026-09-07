@@ -1,0 +1,30 @@
+
+LASSO   alpha=0.0351  R2(cv)=0.479
+    Emissions (log)         +0.8260
+    Waste/packaging         +0.3658
+    Stakeholder/comm        +0.2276
+    Energy/water/emis       -0.2159
+    Customers/data          +0.1652
+    Ethics/anti-corr        -0.1451
+    Leverage                +0.0134
+    Workforce               -0.0111
+    Public policy           -0.0085
+
+Random Forest  R2(cv)=0.530
+XGBoost        R2(cv)=0.585
+
+SHAP mean |value| (higher = more influence on GDS):
+             feature  mean_abs_shap
+     Emissions (log)       0.692490
+    Stakeholder/comm       0.203836
+     Waste/packaging       0.169714
+    Ethics/anti-corr       0.164944
+            Leverage       0.142844
+Firm size (log mcap)       0.133937
+   Energy/water/emis       0.106744
+       Public policy       0.092640
+      Customers/data       0.086677
+       Health&safety       0.067763
+           Workforce       0.045288
+
+written: shap_importance.csv, shap_gds_drivers.png

@@ -1,0 +1,11 @@
+     variable        scale      year  n    mean     sd     min     p25  median    p75    max
+LPS (FinBERT)          raw FY2022-23 94  0.0385 0.0301 -0.0225  0.0178  0.0313 0.0534 0.1436
+LPS (FinBERT)          raw FY2023-24 99  0.0424 0.0313 -0.0125  0.0181  0.0366 0.0577 0.1274
+          OPS          raw FY2022-23 94  0.0387 0.6064 -2.0046 -0.1638  0.1374 0.4866 0.9497
+          OPS          raw FY2023-24 99  0.0495 0.5745 -2.0369 -0.2794  0.1352 0.4510 1.0131
+          GDS standardised FY2022-23 94 -0.0000 1.4639 -2.6668 -1.0193 -0.3918 1.0379 4.5072
+          GDS standardised FY2023-24 99  0.0000 1.4655 -2.5818 -1.1174 -0.3066 0.8531 4.6155
+
+company-years: 193   companies: 99
+companies with both years (paired sample for H1): 94
+written: descriptive_stats.csv
