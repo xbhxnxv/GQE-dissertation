@@ -7,13 +7,6 @@ Everything behind the dissertation: the scripts in the order they were run, the
 data files they read and write, and two Colab notebooks that reproduce the
 results in a browser with nothing to install.
 
-## What is in this repository
-
-The full code and data are in **`GQE-dissertation.zip`** — download and unzip it
-to get the folder layout described below. **`GQE_Terminal.html`** is the saved
-terminal log of the pipeline runs, viewable in any browser. The rest of this
-page is the guide to what the zip contains and how it fits together.
-
 ## Quickest route
 
 Open `07_colab_notebooks/GQE_Analysis.ipynb` in Google Colab and run all cells.
