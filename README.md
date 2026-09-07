@@ -9,11 +9,13 @@ results in a browser with nothing to install.
 
 ## Quickest route
 
-Open `07_colab_notebooks/GQE_Analysis.ipynb` in Google Colab and run all cells.
-It rebuilds every table in Chapter 4 from the data files in about three minutes,
-including recomputing the abnormal returns from raw prices rather than reading
-them from store. Set `DRIVE_FOLDER_URL` in the first cell to the shared folder
-holding `data/`.
+Open the analysis notebook in Google Colab and run all cells:
+
+  https://colab.research.google.com/github/xbhxnxv/GQE-dissertation/blob/main/07_colab_notebooks/GQE_Analysis.ipynb
+
+The first cell clones this repository into the runtime, so all data files are
+present with nothing to set up. It rebuilds every table in Chapter 4 in about
+three minutes, including recomputing the abnormal returns from the raw prices.
 
 ## Folders
 
@@ -115,3 +117,10 @@ by hand. They are kept because the reasons they failed are findings about
 automated ESG extraction: BRSR mandates what must be disclosed but not how the
 table is laid out, so a form designed for standardisation still produces filings
 no single parser can read.
+
+## Generative AI
+
+Parts of this code were written with AI assistance under the University of
+Birmingham's policy on generative AI in assessed work. Every script was executed
+by the author, every output inspected, and every design decision recorded in the
+comments checked against the data before being accepted.
