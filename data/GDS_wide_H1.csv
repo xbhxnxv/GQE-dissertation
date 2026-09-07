@@ -1,0 +1,100 @@
+company,GDS_FY2022_23,GDS_FY2023_24,GDS_change,has_both
+ABB India,0.0961,-0.279,-0.3751,True
+ACC Ltd,0.1059,-0.3722,-0.4781,True
+Adani Enterprises,-0.2675,0.4293,0.6968,True
+Adani Green Energy,-1.5676,-1.012,0.5556,True
+Adani Ports,-0.0699,-0.2976,-0.2277,True
+Alkem Laboratories,-0.8476,0.0945,0.942,True
+Ambuja Cements,0.9197,-0.201,-1.1206,True
+Angel One,-0.5797,0.1803,0.76,True
+Apollo Hospitals,-0.3594,1.5709,1.9303,True
+Ashok Leyland,0.0477,0.7821,0.7345,True
+Asian Paints,-2.09,-0.9197,1.1702,True
+Aurobindo Pharma,0.5991,-0.46,-1.0591,True
+Axis Bank,-0.5658,-0.5064,0.0594,True
+BSE Ltd,-1.9175,-1.741,0.1765,True
+Bajaj Auto,-1.6513,-0.9086,0.7427,True
+Bajaj Finance,-0.6698,-0.7415,-0.0716,True
+Bajaj Finserv,-0.4839,-1.0381,-0.5542,True
+Bank of Baroda,0.6828,-1.3983,-2.0811,True
+Bharat Petroleum,4.2705,4.1627,-0.1077,True
+Bharti Airtel,0.6423,-0.5603,-1.2026,True
+Biocon,-0.5737,-1.468,-0.8943,True
+Bosch India,0.5234,0.4534,-0.07,True
+Britannia Industries,-0.2707,0.0732,0.3439,True
+Central Depository Services,-1.1663,-1.74,-0.5738,True
+Cholamandalam Finance,-1.5119,-0.9641,0.5478,True
+Cipla,-1.3768,-1.2861,0.0907,True
+Coal India,2.1397,1.7532,-0.3865,True
+Coforge,-0.8456,-0.4156,0.43,True
+Colgate-Palmolive India,-0.8934,-0.5694,0.3239,True
+Cummins India,-1.1451,-1.4537,-0.3086,True
+Dabur India,2.5974,2.1517,-0.4458,True
+Divi's Laboratories,-1.5578,0.3667,1.9245,True
+Dr Reddy's Laboratories,0.0843,-1.2342,-1.3185,True
+Eicher Motors,-0.751,-0.0913,0.6597,True
+Emami Ltd,0.0254,0.6867,0.6613,True
+Escorts Kubota,-0.4919,-1.7375,-1.2455,True
+Federal Bank,-1.0977,0.2529,1.3506,True
+Godrej Consumer Products,,-0.3733,,False
+Grasim Industries,1.2599,0.9089,-0.3511,True
+HCL Technologies,-0.601,-3.0973,-2.4963,True
+HDFC Bank,0.3744,0.2531,-0.1213,True
+HDFC Life Insurance,-0.9275,-1.2147,-0.2872,True
+Havells India,0.3315,0.6816,0.3501,True
+Hero MotoCorp,0.3275,-0.2813,-0.6088,True
+Hindalco Industries,0.6419,0.3467,-0.2951,True
+Hindustan Unilever,1.7719,2.0287,0.2568,True
+ICICI Bank,-0.8222,-1.3451,-0.5228,True
+ICICI Lombard General Insurance,,-1.0763,,False
+IDFC First Bank,-0.6881,-1.4886,-0.8005,True
+ITC Ltd,1.2787,0.8148,-0.464,True
+Indian Oil Corporation,1.9761,2.1636,0.1876,True
+Indus Towers,1.5536,2.7393,1.1858,True
+IndusInd Bank,0.1706,-1.2332,-1.4038,True
+Infosys,-0.6317,-1.1394,-0.5077,True
+JSW Steel,2.9798,3.1965,0.2167,True
+Jindal Steel & Power,0.5751,3.0617,2.4866,True
+Kotak Mahindra Bank,-0.1203,-0.6947,-0.5744,True
+L&T Technology Services,-1.0481,0.2202,1.2682,True
+LTIMindtree,1.0298,1.0505,0.0207,True
+Larsen & Toubro,-0.67,-0.6507,0.0193,True
+Life Insurance Corporation,-0.9408,-0.8964,0.0444,True
+Lupin,0.2657,-0.2021,-0.4678,True
+Mahindra & Mahindra,-2.312,-0.7221,1.5899,True
+Marico,-0.4886,-0.1952,0.2934,True
+Maruti Suzuki,-1.7751,-0.4193,1.3558,True
+Mphasis,-0.6192,0.1688,0.788,True
+Muthoot Finance,0.0157,-0.2724,-0.2881,True
+NMDC Ltd,-0.8677,-0.8439,0.0238,True
+NTPC Ltd,-1.2014,-0.4379,0.7636,True
+National Aluminium Company,-1.7515,-1.1752,0.5763,True
+Nestle India,,0.2307,,False
+Oil & Natural Gas Corporation,0.4768,-0.2317,-0.7084,True
+Oracle Financial Services,,-1.4947,,False
+PB Fintech (PolicyBazaar),-0.9628,-1.2046,-0.2418,True
+Paytm (One 97 Communications),-1.7404,-0.5778,1.1626,True
+Persistent Systems,0.1291,-0.4774,-0.6065,True
+Pidilite Industries,-1.1349,-1.3474,-0.2124,True
+Power Grid Corporation,0.7826,-0.2411,-1.0238,True
+Punjab National Bank,-0.8311,-2.0246,-1.1935,True
+Reliance Industries,2.1965,1.5376,-0.6589,True
+SBI Life Insurance,-0.9075,-0.6358,0.2716,True
+Shree Cement,0.0759,0.7842,0.7082,True
+Shriram Finance,-1.6449,-1.5571,0.0878,True
+Siemens India,-0.9434,-0.2739,0.6695,True
+State Bank of India,,-0.4293,,False
+Steel Authority of India,2.4742,3.3641,0.8898,True
+Sun Pharmaceutical,-0.1373,0.5631,0.7004,True
+TVS Motor Company,-0.8653,-0.0876,0.7777,True
+Tata Consultancy Services,-0.0954,-0.5727,-0.4772,True
+Tata Consumer Products,0.0794,1.5973,1.5179,True
+Tata Power,0.2815,0.5481,0.2665,True
+Tata Steel,6.6169,4.1318,-2.485,True
+Tech Mahindra,0.1206,-1.0499,-1.1705,True
+Titan Company,-1.0122,-1.3654,-0.3532,True
+Torrent Pharmaceuticals,1.4855,0.5763,-0.9091,True
+UltraTech Cement,2.179,3.0544,0.8755,True
+Vedanta Ltd,6.1941,6.8984,0.7044,True
+Vodafone Idea,-1.0288,-0.1615,0.8673,True
+Wipro,-0.8568,-0.991,-0.1342,True

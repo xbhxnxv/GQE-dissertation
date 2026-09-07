@@ -1,0 +1,9 @@
+topic,label,corr_GDS,p_GDS,corr_zLPS,p_zLPS,corr_zOPS,p_zOPS
+0,Workforce/wages/rights,-0.331,0.0,-0.26,0.0003,0.223,0.0018
+1,Customers/product/data,-0.234,0.001,-0.107,0.1371,0.234,0.0011
+2,Waste/packaging/circularity,0.483,0.0,0.315,0.0,-0.389,0.0
+3,Energy/water/emissions,-0.375,0.0,-0.356,0.0,0.191,0.0078
+4,Public policy advocacy,0.287,0.0001,-0.073,0.316,-0.491,0.0
+5,Health & safety,0.008,0.9146,0.018,0.8023,0.007,0.925
+6,Ethics/anti-corruption,-0.335,0.0,-0.439,0.0,0.05,0.4918
+7,Stakeholder/community,0.184,0.0105,0.408,0.0,0.14,0.0521

@@ -1,0 +1,12 @@
+feature,mean_abs_shap
+Emissions (log),0.7298936
+Stakeholder/comm,0.18754981
+Ethics/anti-corr,0.16202721
+Waste/packaging,0.15286946
+Firm size (log mcap),0.14296645
+Leverage,0.12006099
+Energy/water/emis,0.11343215
+Customers/data,0.08610964
+Public policy,0.07814361
+Health&safety,0.04798791
+Workforce,0.038763456
